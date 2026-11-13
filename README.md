@@ -1,6 +1,6 @@
-# Vitalis Fisioterapia — site institucional
+# Laser & Fisio — site institucional
 
-Site one-page completo para a clínica fictícia **Vitalis Fisioterapia**.
+Site one-page completo para a **Fisioterapia Laser & Fisio** (Santana, São Paulo).
 HTML, CSS e JavaScript puros — sem dependências, sem build. Basta publicar.
 
 ## Estrutura
@@ -10,25 +10,28 @@ index.html                  Página única (hero, sobre, tratamentos, equipe,
                             diferenciais, depoimentos, CTA, contato, rodapé)
 politica-privacidade.html   Política de privacidade (LGPD)
 assets/css/styles.css       Design system + estilos
-assets/js/main.js           Menu mobile, animações, validação do formulário
+assets/js/main.js           Menu mobile, botão flutuante, animações, validação
 assets/img/*.jpg|webp       Fotografias (JPG + WebP otimizado)
 robots.txt / sitemap.xml    SEO técnico
 ```
 
-## O que substituir antes de publicar
+## Dados já reais (do perfil do Google)
+
+- Nome: Fisioterapia Laser & Fisio
+- Endereço: R. Voluntários da Pátria, Santana, São Paulo/SP, 02075-000
+- Telefone e WhatsApp: (11) 97552-4552
+- Domínio: laserfisio.com.br (canonical, sitemap, robots, e-mail)
+
+## O que ainda precisa de conteúdo real
 
 | Onde | O quê |
 |---|---|
-| `index.html` (todas as ocorrências de `wa.me/5511999990000`) | Número real do WhatsApp da clínica |
-| `index.html` e JSON-LD | Telefone `(11) 4000-0000`, endereço e CEP demonstrativos |
-| `index.html` (iframe do mapa) | Endereço real no parâmetro `q=` do Google Maps |
-| `<link rel="canonical">`, OG, `sitemap.xml`, `robots.txt` | Domínio real (`vitalisfisioterapia.com.br` é placeholder) |
-| `assets/js/main.js` (bloco do submit) | Integração real do formulário (Formspree, API própria etc.) — hoje ele apenas valida e exibe confirmação |
+| Seção "Nossa equipe" | Nomes, fotos e formações dos profissionais reais (os atuais são fictícios) |
+| Seção "Depoimentos" | Avaliações reais de pacientes (as atuais são fictícias) |
+| Horário de funcionamento | Confirmar abertura (o Google informa fechamento às 19h) |
 | `index.html` (links `#` do rodapé) | Perfis reais de redes sociais |
-
-## Observações de conteúdo
-
-- Antes de publicar, substitua os nomes, retratos e formações da equipe e os depoimentos por informações e avaliações reais da clínica — conteúdo inventado apresentado como real expõe a empresa a problemas legais e derruba a confiança no Google.
+| `assets/js/main.js` (bloco do submit) | Integração real do formulário (Formspree, API própria etc.) — hoje ele apenas valida e exibe confirmação |
+| `assets/img/` | Opcional: fotos reais da clínica e da equipe (mantenha os mesmos nomes de arquivo para JPG e WebP) |
 
 ## Performance e acessibilidade
 
@@ -36,8 +39,10 @@ robots.txt / sitemap.xml    SEO técnico
 - Fontes Google com `preconnect` e `display=swap`; animações respeitam `prefers-reduced-motion`.
 - Skip-link, foco visível, ARIA no menu e nos erros de formulário, contraste AA.
 - SEO local: dados estruturados Schema.org (`Physiotherapy`), meta tags Open Graph, sitemap e robots.
+- Botão flutuante de WhatsApp fixo no canto inferior direito.
 
 ## Publicação
 
 Qualquer hospedagem estática funciona (GitHub Pages, Netlify, Vercel, cPanel).
-Não há etapa de build: envie os arquivos da raiz do projeto.
+Não há etapa de build: envie os arquivos da raiz do projeto e aponte o domínio
+`laserfisio.com.br` para a hospedagem.

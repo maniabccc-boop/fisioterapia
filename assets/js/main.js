@@ -1,4 +1,4 @@
-/* Vitalis Fisioterapia — interações */
+/* Laser & Fisio — interações */
 (function () {
   "use strict";
 
