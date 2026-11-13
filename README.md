@@ -1,4 +1,4 @@
-# Vitalis Fisioterapia — site institucional (demonstrativo)
+# Vitalis Fisioterapia — site institucional
 
 Site one-page completo para a clínica fictícia **Vitalis Fisioterapia**.
 HTML, CSS e JavaScript puros — sem dependências, sem build. Basta publicar.
@@ -28,8 +28,7 @@ robots.txt / sitemap.xml    SEO técnico
 
 ## Observações de conteúdo
 
-- Equipe, depoimentos, número "15+ anos" e formações são **meramente ilustrativos** e estão identificados como tal na própria página.
-- As fotografias foram geradas por IA para fins de demonstração e podem ser substituídas por fotos reais da clínica em `assets/img/` (mantenha os mesmos nomes de arquivo para JPG e WebP).
+- Antes de publicar, substitua os nomes, retratos e formações da equipe e os depoimentos por informações e avaliações reais da clínica — conteúdo inventado apresentado como real expõe a empresa a problemas legais e derruba a confiança no Google.
 
 ## Performance e acessibilidade
 
